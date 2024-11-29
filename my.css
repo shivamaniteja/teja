@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stack {
+    gap: 100px;
+    padding: 20px 100px;
+    background-color:white;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    width: 50%;
+}
+
+.links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links button {
+    border: none;
+    background-color:white;
+}
+
+#two {
+    border: opx solid white;
+    font-size: 20px;
+    background-color: lightgreen;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+.hero {
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: end;
+    background-color:lightcoral;
+    border-radius: 20px;    
+    padding: 50px 100px;
+}
+.left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.left h1 p button {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.left button{
+    width: 150px;
+    font-size:x-large;
+    padding:20px 10px;
+    background-color: rgb(240, 236, 3);
+}
+
+.ping {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.right{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.right img{
+    width:100%;
+    height: 100%;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+.lower{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.left1{
+    width: 50%;
+    font-size:20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.right1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#logo1{
+    width: 300px;
+   
+}
+#logo2{
+padding-top: 80px;
+    width: 300px;
+
+}
+#logo3{
+    width: 300px;
+
+}
+
+#logo1 img, #logo2 img ,#logo3 img{
+    width: 100%;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+.stack2{
+    padding:20px 100px;
+    background-color: beige;
+}
+.container2{
+    width: 100%;
+    padding-top: 50px ;
+    display: flex;
+}
+.study{
+    width: 50%;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+.study h1{
+    padding-bottom: 15px;
+}
+.study p{
+    font-size: 20px;
+}
+.but{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 400px;
+}
+
+
+.hero2{
+  width: 100%;
+  padding-bottom: 30px;
+}
+.hero2 #img1{
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    
+} 
+ /* ---------------------------------------------------------------------------------------------------------------- */
+.stack3{
+    padding: 20px 100px;
+
+}
+
+.container3{
+    font-size: 20px;
+    padding-top:30px ;
+    padding-left: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container3 h1{
+    padding-left: 120px;
+}
+
+.hero3{
+    width: 100%;
+    padding-bottom: 100px;
+    display: flex;
+    gap: 120px;
+}
+
+
+.hero3 {
+    padding-top: 50px;
+    
+}
+
+.me1,.me2,.me3{
+    padding-left: 20px;
+    background-color: lightgreen;
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.me1,.me2,.me3 img{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.me1 button{
+    font-style: unset;
+    font-size: 20px;
+    border: none;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;  
+    background-color:lightgreen;  
+    color: black;
+}
+.me2 button{
+    font-style: unset;
+    font-size: 20px;
+    border: none;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;  
+    background-color: lightgreen;
+    color: black;
+}
+.me3 button{
+    font-style: unset;
+    font-size: 20px;
+    border: none;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;  
+    background-color: lightgreen;
+    color: black;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+.stack4{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    scale: 25px;
+}
+.logos5{
+    padding-top: 50px;
+
+}
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+.stack5{
+    width: 100%;
+    padding: 100px 100px;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+.client{
+    font-size: x-large;
+    width: 60%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.client p{
+    padding-bottom: 30px;
+}
+#pera{
+    display: flex;
+    flex-direction: row;
+    background-color: lightsalmon;
+    padding: 5px 50px;
+    border-radius: 10px;
+}
+#pera img{
+    padding-bottom: 20px;
+}
+#pera p{
+    padding-bottom: 60px;
+}
+.client img{
+    padding-top:50px ;
+}
+.men{
+    width: 40%;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------*/
+
+.stack6{
+    width: 100%;
+    padding: 20px 100px;
+}
+.back{
+    width: 100%;
+    height: 500px;
+    background-color: darkgreen;
+    display: flex;
+
+}
+.project{
+    font-size: x-large;
+    color: white;
+    padding-left: 80px;  
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+}
+
+#but{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+    font-size:20px;
+    background-color: yellow;
+    padding: 10px 20px;
+    border: 2px solid black;
+} 
+
+.num{
+    width: 40%;
+    padding-top: 120px;
+    padding-left: 180px;
+    gap: 20px;
+}
+
+.chat{
+    padding-top: 30px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------  */
+
+
+.end{
+    width: 100%;
+    padding-top: 60px;
+    display: flex;
+    gap: 500px;
+}
+.bio{
+    width: 60%;
+    font-size: 20px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#img{
+    padding: 10x 25px;
+
+}
+.home{
+    width: 40%;
+    padding-right: 100px;
+    display: block;
+    display: flex;   
+    gap: 100px;
+   
+}
+.but1{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.but1,button{
+    border: none;
+    font-size: 15px;
+    background-color: white;
+}
+.but2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.but3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
